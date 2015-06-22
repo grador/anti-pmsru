@@ -1,0 +1,127 @@
+<div class="container">
+    <div class="page-header">
+        <h2 class=" col-md-offset-2 ">Личные настройки</h2>
+    </div>
+    <form class="form-horizontal" ng-submit="goToUpdate()" >
+        <div class="form-group">
+            <label for="inputEmail3" class="col-md-2 control-label">E-mail:</label>
+            <div class="col-md-4">
+                <input type="email" disabled ng-model="user.email" class="form-control" id="inputEmail3">
+            </div>
+        </div>
+        <div ng-show="collapsedPass&&collapsedPayment">
+            <div class="form-group">
+                <label for="inputName2" class="col-md-2 control-label">Имя:</label>
+                <div class="col-md-4">
+                    <!--<input type="text" ng-show="setDisabled" disabled ng-model="user.name" class="form-control" id="inputName3" placeholder="Имя">-->
+                    <input type="text"  ng-disabled="setDisabled" ng-model="user.name" class="form-control" id="inputName2" placeholder="Имя" required>
+                </div>
+                <i class="glyphicon glyphicon-hand-left text-danger" ng-show="!setDisabled" style="font-size: x-large" ></i>
+            </div>
+
+            <div class="form-group">
+                <label class="col-md-2 control-label">Тип пользователя:</label>
+                <div ng-show="!user.paid">
+                    <div class="col-md-2">
+                        <input type="text" disabled ng-model="buf1" class="form-control">
+                    </div>
+                    <div class="col-md-2 text-right">
+                        <button type="button" ng-click="collapsedPayment = !collapsedPayment; collapsedPass = true; setDisabled = true;" class="btn btn-success" tooltip="Неограниченное кол-во объектов и событий.">Оплатить премиум</button>
+                    </div>
+                </div>
+                <div class="col-md-4"  ng-show="user.paid">
+                    <input type="text" disabled ng-model="buf2" class="form-control">
+                </div>
+            </div>
+            <div class="form-group" ng-show="user.paid">
+                <label class="col-md-2 control-label">Оплачен до:</label>
+                <div class="col-md-2">
+                    <input type="text" disabled ng-model="user.paid" class="form-control">
+                </div>
+                <div class="col-md-2 text-right">
+                    <button type="button" disabled ng-click="collapsedPayment = !collapsedPayment; collapsedPass = true; setDisabled = true;" class="btn btn-success" tooltip="Продолжить пользоваться всеми возможностями системы.">Оплатить продление</button>
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-md-offset-2 col-md-2">
+                    <button type="button" ng-show="setDisabled" ng-click="setDisabled = !setDisabled;" class="btn btn-default">Редактировать</button>
+                    <button type="button" ng-show="!setDisabled" ng-click="cancelEdit()" class="btn btn-info">Отменить</button>
+                </div>
+                <div class="col-md-2 text-right">
+                    <button type="button" ng-show="setDisabled" ng-click="toFriends()" class="btn btn-info">Отменить</button>
+                    <button type="submit" ng-show="!setDisabled"  class="btn btn-success">Сохранить</button>
+                </div>
+            </div>
+            <div class="col-md-offset-2 col-md-2">
+                <a ng-click="collapsedPass = !collapsedPass; collapsedPayment = true; setDisabled = true;">Изменить пароль.</a>
+            </div>
+        </div>
+    </form>
+    <div collapse="collapsedPass" >
+        <h3 class=" col-md-offset-2 ">Изменение пароля</h3>
+        <form class="form-horizontal" ng-submit="goToChangePass();">
+            <div class="form-group">
+                <p class="col-md-2 control-label"> </p>
+                <p class="col-md-5">
+                    Введите действующий пароль и два раза новый.
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="inputFromOldPass" class="col-md-2 control-label">Действующий пароль:</label>
+                <div class="col-md-3">
+                    <input type="password" ng-model="resetUser.password" required class="form-control" id="inputFromOldPass" placeholder="Действующий пароль">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputFromPass1" class="col-md-2 control-label">Новый пароль:</label>
+                <div class="col-md-3">
+                    <input type="password" ng-model="resetUser.password_confirmation" required class="form-control" id="inputFromPass1" placeholder="Новый пароль">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputFromPass2" class="col-md-2 control-label">Повтор нового пароля:</label>
+                <div class="col-md-3">
+                    <input type="password" ng-model="pass" required class="form-control" id="inputFromPass2" placeholder="Повторите новый пароль">
+                </div>
+            </div>
+            <div class="footer">
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-1">
+                        <button type="submit" class="btn btn-primary" >Отправить</button>
+                    </div>
+                    <div class="col-md-2 text-right">
+                        <button type="button" class="btn btn-info" ng-click="collapsedPass = !collapsedPass;">Отменить</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div collapse="collapsedPayment" >
+        <h3 class=" col-md-offset-2 ">Оплата</h3>
+        <form class="form-horizontal" ng-submit="goToPayment();">
+            <div class="form-group">
+                <p class="col-md-2 control-label"> </p>
+                <p class="col-md-5">
+                    Оплата
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="inputFromEmail" class="col-md-2 control-label">E-mail:</label>
+                <div class="col-md-3">
+                    <input type="email" ng-model="user.email" required class="form-control" id="inputFromEmail" placeholder="E-mail">
+                </div>
+            </div>
+            <div class="footer">
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-1">
+                        <button type="submit" class="btn btn-primary" >Отправить</button>
+                    </div>
+                    <div class="col-md-2 text-right">
+                        <button type="button" class="btn btn-info" ng-click="collapsedPayment = !collapsedPayment;">Отменить</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

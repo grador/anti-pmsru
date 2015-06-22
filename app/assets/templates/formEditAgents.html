@@ -1,0 +1,28 @@
+<form class="form-horizontal" name="inputAgent" ng-submit="inputAgent.$invalid ? null : add();">
+    <div class="modal-body">
+        <div class="form-group">
+            <label for="inputAgentName" class="col-md-2 control-label">Имя:</label>
+            <div class="col-md-9">
+                <input type="text" maxlength="25" ng-model="newItem.name" required class="form-control" id="inputAgentName" placeholder="Введите имя.">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputAgentEmail" class="col-md-2 control-label">E-mail:</label>
+            <label class="col-md-9">
+                <input type="email"  maxlength="35" disabled ng-model="newItem.email" required class="form-control" id="inputAgentEmail">
+            </label>
+            <div class="col-md-12 text-center">
+                E-mail не редактируется, т.к. было подтверждено владение им. <br/>
+                Для изменения адреса необходимо создать нового получателя.
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="form-group">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-info" ng-click="close();">Отменить</button>
+                <button type="submit" class="btn btn-success" >Сохранить</button>
+            </div>
+        </div>
+    </div>
+</form>

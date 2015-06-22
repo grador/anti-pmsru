@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="page-header">
+        <h2 class=" col-md-offset-2 ">Регистрация</h2>
+    </div>
+    <form class="form-horizontal" ng-submit="goToRegister()">
+        <div class="form-group">
+            <label for="inputName3" class="col-md-2 control-label">Имя:</label>
+            <div class="col-md-3">
+                <input type="text" ng-model="newUser.name" class="form-control" maxlength="20" id="inputName3" placeholder="Имя, до 20 знаков" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail3" class="col-md-2 control-label">E-mail:</label>
+            <div class="col-md-3">
+                <input type="email" ng-model="newUser.email" class="form-control" id="inputEmail3" placeholder="E-mail" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-md-2 control-label">Пароль:</label>
+            <div class="col-md-3">
+                <input type="password" ng-model="newUser.password" class="form-control" id="inputPassword3" placeholder="Пароль, не менее 4 знаков" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword4" class="col-md-2 control-label">Повтор пароля:</label>
+            <div class="col-md-3">
+                <input type="password" ng-model="newUser.password_confirmation" class="form-control" id="inputPassword4" placeholder="Повтор пароля" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-1">
+                <button type="submit" class="btn btn-primary">Войти</button>
+            </div>
+            <div class="col-md-2 text-right">
+                <button type="button" ng-click="goToRoot()" class="btn btn-info">Отменить</button>
+            </div>
+        </div>
+    </form>
+</div>

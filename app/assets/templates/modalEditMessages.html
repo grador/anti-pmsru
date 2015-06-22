@@ -1,0 +1,43 @@
+<div class="modal-header">
+    <button type="button" class="close" aria-label="Close" ng-click="cancel();"><span aria-hidden="true">&times;</span></button>
+    <h4 class="modal-title">Редактировать сообщение:</h4>
+</div>
+<div class="modal-body row">
+    <table class="table table-hover col-md-11">
+        <thead>
+        <tr>
+            <td class="text-center col-md-1">
+                <i class="glyphicon glyphicon-hand-down" tooltip="Выбрать для редактирования." ></i>
+            </td>
+            <td class="col-md-3">Заголовок</td>
+            <td class="col-md-7">Текст</td>
+            <td class="text-center col-md-1">
+                <i class="glyphicon glyphicon-hand-down" tooltip="Выбрать для редактирования." ></i>
+            </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="item in items | lang: language | orderBy:'-user'">
+            <td class="text-center">
+                <i class="glyphicon glyphicon-lock" ng-show="item.user===0"  tooltip="Невозможно редактировать." ></i>
+                <i class="glyphicon glyphicon-pencil" ng-show="item.user!=0" ng-click="toEdit(item)" tooltip="Редактировать." ></i>
+            </td>
+            <td>{{item.theme}}</td>
+            <td>{{item.text}}</td>
+            <td class="text-center"  ng-click="toEdit(item)" >
+                <i class="glyphicon glyphicon-lock" ng-show="item.user===0"  tooltip="Невозможно редактировать." ></i>
+                <i class="glyphicon glyphicon-unchecked" ng-show="isIt(item,0,9)" tooltip="Редактировать." ></i>
+                <i class="glyphicon glyphicon-edit text-danger" ng-show="isIt(item,10)" tooltip="Редактировать." ></i>
+                <i class="glyphicon glyphicon-check text-danger" ng-show="isIt(item,11)" tooltip="Редактировать." ></i>
+                <i class="glyphicon glyphicon-trash" ng-show="isIt(item,20,21,22)" tooltip="Редактировать." ></i>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div collapse="collapsed" class="modal-content">
+    <ng-include src="'formMessages.html'"></ng-include>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default"   ng-show="collapsed" ng-click="ok()">Закрыть</button>
+</div>

@@ -1,0 +1,32 @@
+#<DataHash:0xb50e9010 
+	@agents=[
+			{"id"=>1, "user"=>1, "name"=>"Sergey", "email"=>"ser.serafimov@mail.ru", "img"=>"ssv.jpg", "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:47:50 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:47:52 UTC +00:00}, 
+			{"id"=>2, "user"=>1, "name"=>"Petruha", "email"=>"gradator@gmail.com", "img"=>"ss.jpg", "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:48:58 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:49:00 UTC +00:00}
+	], 
+	@froms=[
+			{"id"=>1, "user"=>1, "email"=>"qwerty_66@inbox.ru", "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:32:02 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:32:05 UTC +00:00}, 
+			{"id"=>2, "user"=>1, "email"=>"gra_dor@gmail.com", "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:32:38 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:32:39 UTC +00:00}
+	], 
+	@messages=[
+			{"id"=>2, "user"=>1, "theme"=>"Скоро футбол", "text"=>"На днях состоится футбольный матч. Нашим надо выйграть обязательно. Петр.", "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:46:08 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:46:11 UTC +00:00}, 
+			{"id"=>1, "user"=>0, "theme"=>"Директива от Пал Палыча", "text"=>"Апельсины грузите в бочках. Братья Карамазовы.", "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:44:21 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:44:23 UTC +00:00}
+	], 
+	@reasons=[
+			{"id"=>5, "user"=>1, "name"=>"angry", "period"=>"any", "duration_day"=>3, "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:41:33 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:41:35 UTC +00:00}, 
+			{"id"=>1, "user"=>0, "name"=>"Birthday", "period"=>"year", "duration_day"=>1, "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:35:13 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:35:15 UTC +00:00}, 
+			{"id"=>2, "user"=>0, "name"=>"PMS", "period"=>"any", "duration_day"=>3, "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:36:23 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:36:25 UTC +00:00}, 
+			{"id"=>3, "user"=>0, "name"=>"begin", "period"=>"any", "duration_day"=>6, "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:37:22 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:37:24 UTC +00:00}, 
+			{"id"=>4, "user"=>0, "name"=>"ovulate", "period"=>"any", "duration_day"=>5, "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:40:04 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:40:07 UTC +00:00}
+	], 
+	@friends=[
+			{
+				"user_id"=>1, "id"=>1, "name"=>"Pavla", "img"=>"pavla.jpg", "cycle_day"=>28, "status"=>10, "created_at"=>Sat, 28 Mar 2015 10:28:01 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:28:06 UTC +00:00, 
+					"events"=>[
+						{"friend_id"=>1, "id"=>2, "user"=>1, "reason_id"=>5, "begin_date"=>Sat, 28 Mar 2015, "period"=>"28", "duration_day"=>3, "shift_day"=>2, "color"=>1, "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:30:15 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:30:18 UTC +00:00}
+					], 
+					"letters"=>[
+						{"id"=>2, "user"=>1, "event_id"=>2, "agent_id"=>1, "from_id"=>1, "message_id"=>1, "status"=>nil, "created_at"=>Sat, 28 Mar 2015 10:51:18 UTC +00:00, "updated_at"=>Sat, 28 Mar 2015 10:51:21 UTC +00:00}
+					]
+			}
+	]>
+

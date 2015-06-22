@@ -1,0 +1,43 @@
+<div class="modal-header">
+    <button type="button" class="close" aria-label="Close" ng-click="cancel();"><span aria-hidden="true">&times;</span></button>
+    <h4 class="modal-title">Блокировать событие:</h4>
+</div>
+<div class="modal-body">
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <td class="text-center">
+                <i class="glyphicon glyphicon-hand-down" tooltip="Выбрать для удаления." ></i>
+            </td>
+            <td>Наименование</td>
+            <td>Период</td>
+            <!--<td>Продолжительность</td>-->
+            <td class="text-center">
+                <i class="glyphicon glyphicon-hand-down" tooltip="Выбрать для удаления." ></i>
+            </td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="item in items | lang: language | orderBy:'-user'">
+            <td class="text-center">
+                <i class="glyphicon glyphicon-lock" ng-show="item.user===0"  tooltip="Невозможно удалить." ></i>
+                <i class="glyphicon glyphicon-remove" ng-show="isIt(item,0,9)" ng-click="toDel(item)" tooltip="Удалить." ></i>
+                <i class="glyphicon glyphicon-plus" ng-show="isIt(item,20,21,22)" ng-click="toDel(item)" tooltip="Добавить." ></i>
+            </td>
+            <td>{{item.name}}</td>
+            <td>{{massPeriods | findOneBy:'id':item.period | getField:'name'}}</td>
+            <!--<td class="text-center">{{item.duration_day}}</td>-->
+            <td class="text-center"  ng-click="toDel(item)">
+                <i class="glyphicon glyphicon-lock" ng-show="item.user===0"  tooltip="Невозможно удалить." ></i>
+                <i class="glyphicon glyphicon-check text-danger" ng-show="isIt(item,20)" tooltip="Отменить." ></i>
+                <i class="glyphicon glyphicon-trash" ng-show="isIt(item,21,22)" tooltip="Отменить." ></i>
+                <i class="glyphicon glyphicon-unchecked" ng-show="isIt(item,0,9)" tooltip="Отметить." ></i>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-info" ng-click="cancel();">Отменить</button>
+    <button type="button" class="btn btn-success" ng-disabled="!someIs(20);" ng-click="ok();">Сохранить</button>
+</div>

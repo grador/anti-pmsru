@@ -1,0 +1,34 @@
+<form class="form-horizontal" name="inputReason" ng-submit="inputReason.$invalid ? null : add();">
+    <div class="modal-body">
+        <div class="form-group">
+            <label for="inputReasonName" class="col-md-4 control-label">Наименование:</label>
+            <div class="col-md-8">
+                    <input type="text" maxlength="35" ng-model="newItem.name" required class="form-control" id="inputReasonName" placeholder="Введите наименование.">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputReasonPeriod" class="col-md-4 control-label">Период:</label>
+            <div class="col-md-8">
+                <select ng-model="buffer" ng-click="newItem.period = buffer.id;" ng-options="period.name for period in massPeriods" required class="form-control" id="inputReasonPeriod">
+                    <option value=''>-Выберите периодичность события.</option>
+                </select>
+            </div>
+        </div>
+        <!--<div class="form-group">-->
+            <!--<label for="inputReasonDurationDay" class="col-md-4 control-label">Продолжительность:</label>-->
+            <!--<div class="col-md-3">-->
+                <!--<select ng-model="newItem.duration_day" ng-options="duration|days for duration in shifts" required class="form-control" id="inputReasonDurationDay">-->
+                    <!--<option value=''>-Дней.</option>-->
+                <!--</select>-->
+            <!--</div>-->
+        <!--</div>-->
+    </div>
+    <div class="modal-footer">
+        <div class="form-group">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-info" ng-click="close();">Отменить</button>
+                <button type="submit" class="btn btn-success" >Сохранить</button>
+            </div>
+        </div>
+    </div>
+</form>

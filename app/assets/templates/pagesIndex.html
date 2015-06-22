@@ -1,0 +1,191 @@
+<div class="container">
+    <span  ng-include="'pagesNavigator.html'"></span>
+    <h3 class="text-center" style="color: #6c1d24; padding-bottom: 10px;">
+        Для тех, кто устал жить "как на войне" или терпеть скандалы от женщин!
+    </h3>
+    <div id="post" style="background:url('/assets/bg_001.jpg') repeat-x top center; height: 400px">
+        <h4 class="text-right" style="color: snow; padding-right: 25px; padding-top: 25px; margin-bottom: 5px;">
+            Настроение женщины меняется циклично вместе ее гормональным циклом.<br/>
+            Меняется оно от хорошего в период овуляции до ужасного в период ПМС.<br/>
+            Женщина не может контролировть себя в такие моменты.<br/>
+            Существует много рекомендаций, как управлять этими состояниями.<br/>
+            Ни одна из них не работает.
+        </h4>
+        <h3 class="text-right" style="color: snow; padding-right: 25px; margin-top: 5px;">
+            Гроза надвигается неизбежно!
+        </h3>
+    </div>
+    <div class="row" style="padding-top: 20px;">
+        <div class="col-md-4 center-block">
+            <div class="center-block" style=" width: 330px; height: 250px;" ng-mouseover="badColapse=false; goodColapse=true;changeColor=true;" ng-mouseleave="badColapse=true;">
+                <carousel interval="myInterval">
+                    <slide ng-repeat="slide in badSlides" active="slide.active">
+                        <img ng-src="{{slide.image}}" style="margin:auto; max-width: 330px; height: 250px;">
+                    </slide>
+                </carousel>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div collapse="badColapse">
+                <h4 class="text-center">
+                    Мы не знаем, не следим или не помним <br/> о приближающемся изменении настроения женщины. <br/>
+                    Поэтому не готовы к скандалам, и<br/>
+                    принимаем их за вздорный характер, <br/>
+                    а если знать заранее и быть готовым к надвигающейся грозе?! <br/><br/>
+                    Можно легко избежать конфликт!<br/>
+                    Нужно просто знать о <br/>приближающейся грозе!
+                </h4>
+            </div>
+            <div collapse="goodColapse">
+                <h4 class="text-center">
+                    Мы можем легко получить радость добрых отношений и взаимопонимания. <br/>
+                    Надо быть готовым к <br/>надвигающейся грозе и помочь женщине пережить эти трудные периоды жизни.
+                    Сгладить острые углы <br/>во взаимоотношениях или <br/>просто уклониться от общения. <br/><br/>
+                    Нужно быть готовым!<br/>
+                    Сохраним свои нервы и тепло отношений!
+                </h4>
+            </div>
+            <div collapse="changeColor">
+                <h4 class="text-center">
+                    Избавьтесь от проблемы раз и навсегда! <br/>
+                    Смени кошмар скандалов<br/>
+                    на радость гармоничных отношений!<br/>
+                    Мы предлагаем идеальное решение <br/> для мужчин и женщин:<br/>
+                    предупрежден - значит вооружен и <br/> готов к отношениям!<br/><br/>
+                    Регистрация бесплатна. <br/> Вы сразу имеете возможность получать уведомления.
+                </h4>
+            </div>
+            <div  collapse="!badColapse || !goodColapse || !changeColor">
+                <h4 class="text-center">
+                    <br/>
+                    Чего мы хотим? <br/>
+                    <img src="/assets/r_hand_left.jpg" style="margin:auto; max-width: 50px; height: 50px;">
+                    Это? <br/>
+                    или <br/> Это?
+                    <img src="/assets/r_hand_right.jpg" style="margin:auto; max-width: 50px; height: 50px;">
+                    <br/>
+                    Кошмар или радость быть вместе?
+                </h4>
+            </div>
+        </div>
+        <div class="col-md-4 center-block">
+            <div class="center-block" style=" width: 330px; height: 250px;" ng-mouseover="goodColapse=false; badColapse=true;changeColor=true;" ng-mouseleave="goodColapse=true;">
+                <carousel interval="myInterval">
+                    <slide ng-repeat="slide in goodSlides" active="slide.active">
+                        <img ng-src="{{slide.image}}" style="margin:auto; max-width: 330px; height: 250px;">
+                    </slide>
+                </carousel>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-offset-2 col-md-8" ng-mouseover="changeColor=false; goodColapse=true; badColapse=true;" ng-mouseleave="changeColor=true" style="padding-top: 20px;padding-bottom: 20px; ">
+        <button type="button" ng-hide="signedIn() && !isDemo()" ng-click="toRegister()" class="btn btn-info btn-lg btn-block">
+            Заполните формы и Вы начнете получать на почту уведомления <br/>
+            о приближающихся изменениях в настроении интересующей Вас женщины.
+            <br/>
+            Нажмите для регистрации.
+        </button>
+        <button type="button" ng-show="signedIn() && !isDemo()" disabled class="btn btn-primary btn-lg btn-block">
+            Мы предлагаем отличное решение для мужчин и женщин:<br/>
+            предупрежден - значит вооружен и готов к отношениям!<br/>
+            Спасибо, что Вы уже с нами.
+        </button>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="thumbnail text-center" style="background-color: rgba(213, 229, 250, 0.67)" ng-mouseover="forMan=true" ng-mouseleave="forMan=false">
+                <div style="height: 80px">
+                    <img src="/assets/lil-face-m.png" ng-show="!forMan" alt="Male" width="50px" style="padding-top: 15px"/>
+                    <img src="/assets/lil-face-m.png" ng-show="forMan" alt="Male" width="58px" style="padding-top: 10px"/>
+                </div>
+                <h3> Мужчинам</h3>
+                <div class="caption text-center">
+                    <h4>
+                        Избавьтесь от неожиданных изменений <br/> настроения жены, любовницы, подруги. <br/>
+                        Вы сможете избежать скандалов, крика, истерик, <br/> слез от близких женщин. <br/>
+                        Исключите неожиданные выговоры и <br/> немотвированные отказы от начальницы.
+                    </h4>
+                    <button type="button" ng-show="!forMan" class="btn btn-default btn-md">Пример мужского аккаунта</button>
+                    <button type="button" ng-show="forMan" ng-click="goToMaleDemo()" class="btn btn-primary btn-md">Пример мужского аккаунта</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="thumbnail text-center" style="background-color: #ffeefb" ng-mouseover="forWoman=true" ng-mouseleave="forWoman=false">
+                <div style="height: 80px">
+                    <img src="/assets/lil-face-f.png" ng-show="!forWoman" alt="Male" width="50px" style="padding-top: 15px"/>
+                    <img src="/assets/lil-face-f.png" ng-show="forWoman" alt="Male" width="58px" style="padding-top: 10px"/>
+                </div>
+                <h3> Женщинам</h3>
+                <div class="caption text-center">
+                    <h4>
+                        Уведомите своих мужчин о Вашем состоянии и <br/> они будут предупредительны и терпеливы. <br/>
+                        Вы будете начеку, когда Ваша начальнница <br/>будет готова отругать Вас ни за что. <br/>
+                        Вы будете знать, когда ваша коллега или<br/>подруга будет не в себе.
+                    </h4>
+                    <button type="button" ng-show="!forWoman" class="btn btn-warning btn-md">Пример женского аккаунта</button>
+                    <button type="button" ng-show="forWoman" ng-click="goToFemaleDemo()" class="btn btn-danger btn-md">Пример женского аккаунта</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-12 alert alert-success">
+        <div class="col-md-2 text-center">
+            <img src="/assets/event-calendar-icon-2.png" style="padding-top: 25px" alt="Female" width="53px"/>
+        </div>
+        <h4 class="col-md-10">
+            Вы сможете отслеживать:
+                <li>Критические дни,</li>
+                <li>Овуляцию - хорошее настроение, сексуальна, привлекательна, но есть опасность "залелеть", </li>
+                <li>ПМС - агрессивна, истерична, надо вести себя аккуратно, стараться не общаться и не раздражать,</li>
+                <li>Любое событие привязанное к любому циклу и любой дате.</li>
+        </h4>
+    </div>
+    <div class="col-md-12 alert alert-success">
+        <div class="col-md-2 text-center">
+            <img src="/assets/secure-icon-5.png" style="padding-top: 12px" alt="Envelope" width="38px"/>
+        </div>
+        <h4 class="col-md-10">
+            Важно, что у Вас ни в смартфоне, ни в компьютере нет никаких приложений или программ и компрометирующих Вас следов.
+            Вдруг Ваша жена или подруга заглянет в смартфон? <br/> Зачем Вам это? <br/>
+            Безопасно вносите в систему жену, любовницу, подругу, соседку.
+        </h4>
+    </div>
+    <div class="col-md-12 alert alert-success">
+        <div class="col-md-2 text-center "  style="padding-top: 45px">
+            <img src="/assets/envelope-icon-3.png" alt="Envelope" width="53px" style="vertical-align: middle"/>
+        </div>
+        <h4 class="col-md-10">
+            Вы можете написать любой текст письма и указать любой адрес отправителя. Например: <br/> <br/>
+            От: "toyota77@toyota.ru" <br/>
+            Заголовок: "Поступили заказанные Вами тормозные колодки."<br/>
+            Текст: "Заказанные тормозные колодки можно получить на складе {{date_add_days(toNow(),1)|date:'dd-MM-yyyy'}}."
+            <br/> <br/>
+            Никто кроме Вас не поймет от кого это письмо и о чем оно, даже если оно про Вашу любовницу или начальницу.
+        </h4>
+    </div>
+    <div class="col-md-12 alert alert-success">
+        <div class="col-md-2 text-center">
+            <img src="/assets/search-icon.png" style="padding-top: 25px" alt="Female" width="50px"/>
+        </div>
+        <h4 class="col-md-10">
+            Если это не близкая Вам женщина, например, начальница и вы не можете достоверно определить начало "критических дней" мы
+            поможем Вам определить ее цикл по косвенным признакам. <br/>
+            После этого Вы точно будете знать когда можно разговаривать с начальницей о прибавке к зарплате или отпуске, а когда надо держаться подальше от нее.
+            <br/>
+            Вы будете получать уведомления о нужных Вам событиях и в удобной для Вас форме.
+        </h4>
+    </div>
+    <div class="col-md-offset-2 col-md-8" style="padding-bottom: 20px">
+        <button type="button" ng-hide="signedIn() && !isDemo()" ng-click="toRegister()" class="btn btn-info btn-lg btn-block" tooltip="Регистрация бесплатна. Вы сразу имеете возможность получать уведомления.">
+            Нажмите для регистрации.
+        </button>
+        <button type="button" ng-show="signedIn() && !isDemo()" disabled class="btn btn-primary btn-lg btn-block">
+            Спасибо, что Вы уже с нами.
+        </button>
+    </div>
+    <div class="col-md-12 text-center" style=" padding-top: 10px; height: 40px;">
+        <a href="http://grador.ru" style="color:rgba(80, 23, 128, 0.97);"> grador.ru</a>
+    </div>
+</div>

@@ -1,0 +1,31 @@
+{
+  "name": "antipmscom",
+  "version": "0.0.0",
+  "authors": [
+    "grador <gradator@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "anti-pms.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "vendor/assets/bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15",
+    "es5-shim": "~4.1.0",
+    "ng-flow": "~2.6.1",
+    "underscore": "~1.8.2",
+    "angular-ui-utils": "~0.2.3",
+    "angular-ui-router": "~0.2.14",
+    "angular-devise": "~1.0.2",
+    "bootstrap": "~3.3.4"
+  },
+  "resolutions": {
+    "jquery": "~2.1.3",
+    "angular": "~1.3.15"
+  }
+}

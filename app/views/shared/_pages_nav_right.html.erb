@@ -1,0 +1,17 @@
+<ul class="nav navbar-nav navbar-right">
+    <% if user_signed_in? %>
+      <li class="dropdown">
+        <%= link_to "Здравствуйте, #{current_user.email}.", edit_user_registration_path %>
+      </li>
+      <li class="dropdown">
+        <%= link_to 'Выйти', destroy_user_session_path, :method => :delete %>
+      </li>
+    <% else %>
+      <li class="dropdown">
+        <%= link_to 'Войти', new_user_session_path %>
+      </li>
+      <li class="dropdown">
+        <%= link_to 'Зарегистрироваться', new_user_registration_path %>
+      </li>
+    <% end %>
+</ul>

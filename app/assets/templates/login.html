@@ -1,0 +1,60 @@
+<div class="container">
+    <div class="page-header">
+        <h2 class=" col-md-offset-2" ng-show="collapsed">Вход</h2>
+        <h2 class=" col-md-offset-2" ng-show="!collapsed">Восстановление пароля</h2>
+    </div>
+    <form class="form-horizontal" ng-submit="goToLogin()">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-md-2 control-label">E-mail:</label>
+            <div class="col-md-3">
+                <input type="email"  ng-disabled="!collapsed" ng-model="user.email" class="form-control" id="inputEmail3" placeholder="E-mail" required>
+            </div>
+            <i class="glyphicon glyphicon-hand-left text-danger" ng-show="!collapsed" style="font-size: x-large" ></i>
+        </div>
+        <div class="form-group">
+            <label for="inputPassword3" class="col-md-2 control-label">Пароль:</label>
+            <div class="col-md-3">
+                <input type="password" ng-disabled="!collapsed"   ng-model="user.password" class="form-control" id="inputPassword3" placeholder="Пароль" required>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-1">
+                <button type="submit" ng-disabled="!collapsed"  class="btn btn-primary">Войти</button>
+            </div>
+            <div class="col-md-2 text-right">
+                <button type="button" ng-disabled="!collapsed" ng-click="goToRoot()"  class="btn btn-info">Отменить</button>
+            </div>
+        </div>
+        <div class="col-md-offset-2 ">
+            <a ng-click="collapsed = !collapsed; data.email='';">Забыли пароль?</a>
+        </div>
+    </form>
+    <div collapse="collapsed" >
+        <hr/>
+        <form class="form-horizontal" ng-submit="goToResetPass();">
+            <div class="form-group">
+                <p class="col-md-2 control-label"> </p>
+                <p class="col-md-5">
+                    Введите адрес E-mail в два поля для сверки правильности его написания и отправьте для восстановления пароля.
+                </p>
+            </div>
+            <div class="form-group">
+                <label for="inputFromEmail" class="col-md-2 control-label">E-mail:</label>
+                <div class="col-md-3">
+                    <input type="email" ng-model="data.email" required class="form-control" id="inputFromEmail" placeholder="E-mail">
+                </div>
+                <i class="glyphicon glyphicon-hand-left text-danger" ng-show="!collapsed" style="font-size: x-large" ></i>
+            </div>
+            <div class="footer">
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-1">
+                        <button type="submit" class="btn btn-primary" >Отправить</button>
+                    </div>
+                    <div class="col-md-2 text-right">
+                        <button type="button" class="btn btn-info" ng-click="collapsed = true; data.email='';">Отменить</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

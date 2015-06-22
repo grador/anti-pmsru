@@ -1,0 +1,24 @@
+<form class="form-horizontal" name="inputMessage" ng-submit="inputMessage.$invalid ? null : add();">
+    <div class="modal-body">
+        <div class="form-group">
+            <label for="inputMessageTheme" class="col-md-2 control-label">Заголовок:</label>
+            <div class="col-md-10">
+                <input type="text" maxlength="45" ng-model="newItem.theme" required class="form-control" id="inputMessageTheme" placeholder="Введите тему.">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputMessageText" class="col-md-2 control-label">Текст сообщения:</label>
+            <div class="col-md-10">
+                <input type="text" maxlength="90" ng-model="newItem.text" required class="form-control" id="inputMessageText" placeholder="Введите текст.">
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <div class="form-group">
+            <div class="col-md-12">
+                <button type="button" class="btn btn-info" ng-click="close();">Отменить</button>
+                <button type="submit" class="btn btn-success" >Сохранить</button>
+            </div>
+        </div>
+    </div>
+</form>
