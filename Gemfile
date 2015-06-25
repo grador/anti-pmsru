@@ -49,6 +49,7 @@ group :development, :test do
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
   gem 'capistrano-rvm'
+  gem 'capistrano-passenger'
   # gem 'capistrano-rbenv'
   # нужен для корректной работы с rvm
   # Access an IRB console on exception pages or by using <%= console %> in views
