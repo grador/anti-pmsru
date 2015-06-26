@@ -2,6 +2,98 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12ec924b-1490-490a-854a-000a64545018" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/0_13acf7_d4a8fda1_orig.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/0_13addf_9259c23f_orig.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/2015-0(1).JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/2015-0.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/2015-1.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/IMG_5772.JPG" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/001.jpg" afterPath="$PROJECT_DIR$/public/images/001.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/002.jpg" afterPath="$PROJECT_DIR$/public/images/002.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/003.jpg" afterPath="$PROJECT_DIR$/public/images/003.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/004.jpg" afterPath="$PROJECT_DIR$/public/images/004.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/005.jpg" afterPath="$PROJECT_DIR$/public/images/005.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/006.jpg" afterPath="$PROJECT_DIR$/public/images/006.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/007.jpg" afterPath="$PROJECT_DIR$/public/images/007.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/008.jpg" afterPath="$PROJECT_DIR$/public/images/008.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/009.jpg" afterPath="$PROJECT_DIR$/public/images/009.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/010.jpg" afterPath="$PROJECT_DIR$/public/images/010.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/011.jpg" afterPath="$PROJECT_DIR$/public/images/011.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/012.jpg" afterPath="$PROJECT_DIR$/public/images/012.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_13a802_64310027_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_13a802_64310027_orig.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_14f48e_e5d3378f_orig(1).jpg" afterPath="$PROJECT_DIR$/public/images/0_14f48e_e5d3378f_orig(1).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_155d6c_70a0b158_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_155d6c_70a0b158_orig.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_15a371_4c6504e5_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_15a371_4c6504e5_orig.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_15b085_746ad3ba_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_15b085_746ad3ba_orig.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_15e6cd_cd359fbc_orig(1).jpg" afterPath="$PROJECT_DIR$/public/images/0_15e6cd_cd359fbc_orig(1).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_15e6ce_ca97514b_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_15e6ce_ca97514b_orig.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_15e9f0_638f8e53_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_15e9f0_638f8e53_orig.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/101.jpg" afterPath="$PROJECT_DIR$/public/images/101.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/102.jpg" afterPath="$PROJECT_DIR$/public/images/102.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/103.jpg" afterPath="$PROJECT_DIR$/public/images/103.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/104.jpg" afterPath="$PROJECT_DIR$/public/images/104.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/105.jpg" afterPath="$PROJECT_DIR$/public/images/105.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/106.jpg" afterPath="$PROJECT_DIR$/public/images/106.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/107.jpg" afterPath="$PROJECT_DIR$/public/images/107.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/108.jpg" afterPath="$PROJECT_DIR$/public/images/108.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/3.jpg" afterPath="$PROJECT_DIR$/public/images/3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/Calendar-3.png" afterPath="$PROJECT_DIR$/public/images/Calendar-3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/Contract-512.png" afterPath="$PROJECT_DIR$/public/images/Contract-512.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/F.jpg" afterPath="$PROJECT_DIR$/public/images/F.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/M.jpg" afterPath="$PROJECT_DIR$/public/images/M.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/__3(1).jpg" afterPath="$PROJECT_DIR$/public/images/__3(1).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/__3(3).jpg" afterPath="$PROJECT_DIR$/public/images/__3(3).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/__3(5).jpg" afterPath="$PROJECT_DIR$/public/images/__3(5).jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/__3.jpg" afterPath="$PROJECT_DIR$/public/images/__3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/bg_001.jpg" afterPath="$PROJECT_DIR$/public/images/bg_001.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/bg_pages.jpg" afterPath="$PROJECT_DIR$/public/images/bg_pages.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/envelope-icon-2.png" afterPath="$PROJECT_DIR$/public/images/envelope-icon-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/envelope-icon-3.png" afterPath="$PROJECT_DIR$/public/images/envelope-icon-3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/envelope-icon.png" afterPath="$PROJECT_DIR$/public/images/envelope-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/event-calendar-icon-1.png" afterPath="$PROJECT_DIR$/public/images/event-calendar-icon-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/event-calendar-icon-2.png" afterPath="$PROJECT_DIR$/public/images/event-calendar-icon-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/event-calendar-icon.png" afterPath="$PROJECT_DIR$/public/images/event-calendar-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/favicon.ico" afterPath="$PROJECT_DIR$/public/images/favicon.ico" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/female.jpg" afterPath="$PROJECT_DIR$/public/images/female.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/female_3.jpg" afterPath="$PROJECT_DIR$/public/images/female_3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/female_icon.png" afterPath="$PROJECT_DIR$/public/images/female_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/l_hand_left.jpg" afterPath="$PROJECT_DIR$/public/images/l_hand_left.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/l_hand_right.jpg" afterPath="$PROJECT_DIR$/public/images/l_hand_right.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/letter.jpg" afterPath="$PROJECT_DIR$/public/images/letter.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/lil-face-f.png" afterPath="$PROJECT_DIR$/public/images/lil-face-f.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/lil-face-m.png" afterPath="$PROJECT_DIR$/public/images/lil-face-m.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/male.jpg" afterPath="$PROJECT_DIR$/public/images/male.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/male.png" afterPath="$PROJECT_DIR$/public/images/male.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/male_3.jpg" afterPath="$PROJECT_DIR$/public/images/male_3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/male_icon.png" afterPath="$PROJECT_DIR$/public/images/male_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/msno.jpg" afterPath="$PROJECT_DIR$/public/images/msno.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/nofoto.jpg" afterPath="$PROJECT_DIR$/public/images/nofoto.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/notify.png" afterPath="$PROJECT_DIR$/public/images/notify.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/p-icon-2.png" afterPath="$PROJECT_DIR$/public/images/p-icon-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/p-icon-3.png" afterPath="$PROJECT_DIR$/public/images/p-icon-3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/p-icon.png" afterPath="$PROJECT_DIR$/public/images/p-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/r_hand_left.jpg" afterPath="$PROJECT_DIR$/public/images/r_hand_left.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/r_hand_right.jpg" afterPath="$PROJECT_DIR$/public/images/r_hand_right.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/search-icon.png" afterPath="$PROJECT_DIR$/public/images/search-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/secure-icon-1.png" afterPath="$PROJECT_DIR$/public/images/secure-icon-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/secure-icon-2.png" afterPath="$PROJECT_DIR$/public/images/secure-icon-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/secure-icon-3.png" afterPath="$PROJECT_DIR$/public/images/secure-icon-3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/secure-icon-4.png" afterPath="$PROJECT_DIR$/public/images/secure-icon-4.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/secure-icon-5.png" afterPath="$PROJECT_DIR$/public/images/secure-icon-5.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/sighnup-icon-2.png" afterPath="$PROJECT_DIR$/public/images/sighnup-icon-2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/sighnup-icon-3.png" afterPath="$PROJECT_DIR$/public/images/sighnup-icon-3.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/sighnup-icon.png" afterPath="$PROJECT_DIR$/public/images/sighnup-icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/sign_up.jpg" afterPath="$PROJECT_DIR$/public/images/sign_up.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/sign_up.png" afterPath="$PROJECT_DIR$/public/images/sign_up.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/signup-icon-1.png" afterPath="$PROJECT_DIR$/public/images/signup-icon-1.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/trace.png" afterPath="$PROJECT_DIR$/public/images/trace.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/Ксензова Екатерина.jpg" afterPath="$PROJECT_DIR$/public/images/Ксензова Екатерина.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/constants.rb" afterPath="$PROJECT_DIR$/config/initializers/constants.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/templates/friendsIndex.html" afterPath="$PROJECT_DIR$/app/assets/templates/friendsIndex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/pages.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/pages.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/templates/pagesIndex.html" afterPath="$PROJECT_DIR$/app/assets/templates/pagesIndex.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="antipmscom.iws" />
@@ -20,7 +112,7 @@
     <SUITE FILE_PATH="coverage/antipmscom@db_rollback__antipmscom.coverage" NAME="db:rollback: antipmscom Coverage Results" MODIFIED="1431924778356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="antipmscom" />
     <SUITE FILE_PATH="coverage/antipmscom@bower_resolve__antipmscom.coverage" NAME="bower:resolve: antipmscom Coverage Results" MODIFIED="1427631685208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="antipmscom" />
     <SUITE FILE_PATH="coverage/antipmscom@bower_install_options___antipmscom.coverage" NAME="bower:install[options]: antipmscom Coverage Results" MODIFIED="1432722867753" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="antipmscom" />
-    <SUITE FILE_PATH="coverage/antipmscom@Development__antipmsru.coverage" NAME="Development: antipmsru Coverage Results" MODIFIED="1435154743167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="antipmscom" />
+    <SUITE FILE_PATH="coverage/antipmscom@Development__antipmsru.coverage" NAME="Development: antipmsru Coverage Results" MODIFIED="1435295896265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="antipmscom" />
     <SUITE FILE_PATH="coverage/antipmscom@Development__antipmscom.coverage" NAME="Development: antipmsru Coverage Results" MODIFIED="1432995284388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="antipmscom" />
     <SUITE FILE_PATH="coverage/antipmscom@install__antipmscom.coverage" NAME="install: antipmscom Coverage Results" MODIFIED="1435031579540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="antipmscom" />
     <SUITE FILE_PATH="coverage/antipmscom@bower_update_options___antipmscom.coverage" NAME="bower:update[options]: antipmscom Coverage Results" MODIFIED="1427631711157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="antipmscom" />
@@ -62,8 +154,20 @@
         <entry file="file://$PROJECT_DIR$/config/application.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+              <caret line="44" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pagesIndex.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/templates/pagesIndex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.2916665">
+              <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -81,8 +185,8 @@
       <file leaf-file-name="deploy.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/deploy.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53745925">
-              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.49401197">
+              <caret line="35" column="101" selection-start-line="35" selection-start-column="101" selection-end-line="35" selection-end-column="101" />
               <folding />
             </state>
           </provider>
@@ -93,6 +197,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -121,9 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/templates/modalDelAgents.html" />
-        <option value="$PROJECT_DIR$/app/assets/templates/modalDelFroms.html" />
-        <option value="$PROJECT_DIR$/app/assets/templates/modalDelMessages.html" />
         <option value="$PROJECT_DIR$/app/assets/templates/modalDelReasons.html" />
         <option value="$PROJECT_DIR$/app/assets/templates/modalEditAgents.html" />
         <option value="$PROJECT_DIR$/app/assets/templates/modalEditFroms.html" />
@@ -137,9 +248,7 @@
         <option value="$PROJECT_DIR$/app/models/image.rb" />
         <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
         <option value="$PROJECT_DIR$/config/secrets.yml" />
-        <option value="$PROJECT_DIR$/app/assets/templates/friendsIndex.html" />
         <option value="$PROJECT_DIR$/config/database.yml" />
-        <option value="$PROJECT_DIR$/app/assets/templates/pagesIndex.html" />
         <option value="$PROJECT_DIR$/app/assets/templates/login.html" />
         <option value="$PROJECT_DIR$/app/assets/templates/register.html" />
         <option value="$PROJECT_DIR$/app/assets/templates/settings.html" />
@@ -169,9 +278,14 @@
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="&lt;f9ee8dc8-ebe2-48f6-a7ed-c3a1ba2e348f&gt;/var/www/anti-pmsru/current/bower.json" />
-        <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
-        <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/constants.rb" />
         <option value="$PROJECT_DIR$/config/deploy.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/pages.js" />
+        <option value="$PROJECT_DIR$/app/assets/templates/pagesIndex.html" />
+        <option value="$PROJECT_DIR$/app/assets/templates/friendsIndex.html" />
+        <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
+        <option value="&lt;f9ee8dc8-ebe2-48f6-a7ed-c3a1ba2e348f&gt;/var/www/anti-pmsru/current/app/assets/templates/pagesIndex.html" />
+        <option value="$PROJECT_DIR$/config/application.rb" />
       </list>
     </option>
   </component>
@@ -342,7 +456,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="log" />
+              <option name="myItemId" value="vendor" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,7 +470,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -370,18 +484,54 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antipmscom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antipmsru" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="environments" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antipmscom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="antipmsru" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="RailsProjectView" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -434,11 +584,11 @@
       <recent name="$PROJECT_DIR$/app/views/shared" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/images" />
       <recent name="$PROJECT_DIR$/app/assets" />
       <recent name="$PROJECT_DIR$/app/assets/templates" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts" />
       <recent name="$PROJECT_DIR$/app/assets/ui-bootstrap/template/tabs" />
-      <recent name="$PROJECT_DIR$/app/assets/java" />
     </key>
   </component>
   <component name="RunManager" selected="Rails.Development: antipmsru">
@@ -855,19 +1005,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19717203" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22859387" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19874312" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18538885" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19088766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32608697" sideWeight="0.49646506" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4347826" sideWeight="0.49646506" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32608697" sideWeight="0.503535" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -877,6 +1026,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4456522" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -951,41 +1101,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/templates/modalHelpAgents.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.512987">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/filters.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7345277">
-          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pages_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6287129">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15789473">
@@ -1014,38 +1129,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/constants.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/templates/friendsIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6315789">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/robots.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/friends.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.1254072">
-          <caret line="195" column="32" selection-start-line="196" selection-start-column="11" selection-end-line="196" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/image.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5863192">
-          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
         </state>
       </provider>
     </entry>
@@ -1067,13 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.5569307">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33168316">
-          <caret line="69" column="4" selection-start-line="69" selection-start-column="4" selection-end-line="69" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -1106,13 +1186,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/названия событий">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.1.3/gems/capistrano-3.4.0/lib/capistrano/dsl.rb">
@@ -1123,13 +1203,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gem">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/bower_components/bootstrap/less/alerts.less">
@@ -1147,27 +1227,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/templates/pagesIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="132" column="37" selection-start-line="132" selection-start-column="32" selection-end-line="132" selection-end-column="37" />
-        </state>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/theme/variables.less">
@@ -1205,20 +1271,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1230,7 +1282,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1238,15 +1289,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.024429968">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1254,7 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1498371">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1262,7 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.050847456">
           <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1270,6 +1310,64 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6864407">
           <caret line="27" column="7" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Capfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.78013027">
+          <caret line="52" column="17" selection-start-line="52" selection-start-column="12" selection-end-line="52" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/class_method.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/0_13a802_64310027_orig.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/images_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04491018">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/constants.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6287425">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/image.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76347303">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
           <folding />
         </state>
       </provider>
@@ -1282,18 +1380,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Capfile">
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
+    <entry file="file://$PROJECT_DIR$/public/images/bg_pages.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/bg_001.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24267101">
-          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33532935">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/friends.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9101796">
+          <caret line="195" column="32" selection-start-line="196" selection-start-column="11" selection-end-line="196" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/templates/friendsIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.6774194">
+          <caret line="76" column="21" selection-start-line="76" selection-start-column="21" selection-end-line="76" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/pages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.31437126">
+          <caret line="49" column="20" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1301,8 +1441,18 @@
     <entry file="file://$PROJECT_DIR$/config/application.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <caret line="44" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/templates/pagesIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.2916665">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1314,18 +1464,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/deploy.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53745925">
-          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.49401197">
+          <caret line="35" column="101" selection-start-line="35" selection-start-column="101" selection-end-line="35" selection-end-column="101" />
           <folding />
         </state>
       </provider>

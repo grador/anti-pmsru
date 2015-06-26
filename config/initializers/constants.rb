@@ -1,4 +1,4 @@
-UPLOAD_PATH = 'app/assets/images'
+UPLOAD_PATH = 'public/images'
 SITE_URL = 'http:/anti-pms.com'
 SITE_NAME = 'ANTI-PMS.COM'
 WAIT_CONFIRM ='wait_confirm'

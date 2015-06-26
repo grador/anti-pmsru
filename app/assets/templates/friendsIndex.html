@@ -32,8 +32,8 @@
                 <div class="col-md-11 list-group" ng-repeat="friend in data.friends | orderBy:'id'">
                     <div class="row">
                         <div class="col-md-2 text-center"  ng-click="friend.show = true">
-                            <img ng-show="friend.img" ng-src="/assets/{{friend.img}}" style="max-width: 120px; max-height: 70px">
-                            <img ng-show="!friend.img" ng-src="/assets/{{'nofoto.jpg'}}" alt="NO FOTO" style="max-width: 120px; max-height: 70px">
+                            <img ng-show="friend.img" ng-src="assets/{{friend.img}}" style="max-width: 120px; max-height: 70px">
+                            <img ng-show="!friend.img" ng-src="assets/{{'nofoto.jpg'}}" alt="NO FOTO" style="max-width: 120px; max-height: 70px">
                         </div>
                         <a class="col-md-10 panel-body list-group-item " ng-click="friend.show = true">
                             <h4>{{ friend.name|ifEmpty:'Имя не присвоено.' }}, цикл: {{ friend.cycle_day|days }}, день рождения: {{friend.events | findOneBy:'reason_id':1 | getField: 'begin_date'| date:'dd-MM-yyyy' }}</h4>
@@ -64,8 +64,8 @@
             <div class="row">
                 <!--уровень знакомая-->
                 <div class="col-md-3 text-center">
-                    <img ng-show="!!tab.img && !flowData.flow.files.length" flow-btn tooltip="Сменить изображение." ng-src="/assets/{{tab.img}}" style="max-width: 240px; max-height: 240px">
-                    <img ng-show="!tab.img && !flowData.flow.files.length" flow-btn tooltip="Установить изображение." ng-src="/assets/{{'nofoto.jpg'}}" alt="NO FOTO" style="max-width: 240px; max-height: 240px">
+                    <img ng-show="!!tab.img && !flowData.flow.files.length" flow-btn tooltip="Сменить изображение." ng-src="assets/{{tab.img}}" style="max-width: 240px; max-height: 240px">
+                    <img ng-show="!tab.img && !flowData.flow.files.length" flow-btn tooltip="Установить изображение." ng-src="assets/{{'nofoto.jpg'}}" alt="NO FOTO" style="max-width: 240px; max-height: 240px">
                     <div class="gallery-box" ng-repeat="file in flowData.flow.files">
                         <div class="thumbnail" ng-show="!!flowData.flow.files.length">
                             <img flow-img="file" style="max-width: 200px; max-height: 200px"/>
