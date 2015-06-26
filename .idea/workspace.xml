@@ -2,98 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12ec924b-1490-490a-854a-000a64545018" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/0_13acf7_d4a8fda1_orig.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/0_13addf_9259c23f_orig.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/2015-0(1).JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/2015-0.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/2015-1.JPG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/IMG_5772.JPG" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/001.jpg" afterPath="$PROJECT_DIR$/public/images/001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/002.jpg" afterPath="$PROJECT_DIR$/public/images/002.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/003.jpg" afterPath="$PROJECT_DIR$/public/images/003.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/004.jpg" afterPath="$PROJECT_DIR$/public/images/004.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/005.jpg" afterPath="$PROJECT_DIR$/public/images/005.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/006.jpg" afterPath="$PROJECT_DIR$/public/images/006.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/007.jpg" afterPath="$PROJECT_DIR$/public/images/007.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/008.jpg" afterPath="$PROJECT_DIR$/public/images/008.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/009.jpg" afterPath="$PROJECT_DIR$/public/images/009.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/010.jpg" afterPath="$PROJECT_DIR$/public/images/010.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/011.jpg" afterPath="$PROJECT_DIR$/public/images/011.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/012.jpg" afterPath="$PROJECT_DIR$/public/images/012.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_13a802_64310027_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_13a802_64310027_orig.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_14f48e_e5d3378f_orig(1).jpg" afterPath="$PROJECT_DIR$/public/images/0_14f48e_e5d3378f_orig(1).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_155d6c_70a0b158_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_155d6c_70a0b158_orig.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_15a371_4c6504e5_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_15a371_4c6504e5_orig.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_15b085_746ad3ba_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_15b085_746ad3ba_orig.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_15e6cd_cd359fbc_orig(1).jpg" afterPath="$PROJECT_DIR$/public/images/0_15e6cd_cd359fbc_orig(1).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_15e6ce_ca97514b_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_15e6ce_ca97514b_orig.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/0_15e9f0_638f8e53_orig.jpg" afterPath="$PROJECT_DIR$/public/images/0_15e9f0_638f8e53_orig.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/101.jpg" afterPath="$PROJECT_DIR$/public/images/101.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/102.jpg" afterPath="$PROJECT_DIR$/public/images/102.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/103.jpg" afterPath="$PROJECT_DIR$/public/images/103.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/104.jpg" afterPath="$PROJECT_DIR$/public/images/104.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/105.jpg" afterPath="$PROJECT_DIR$/public/images/105.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/106.jpg" afterPath="$PROJECT_DIR$/public/images/106.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/107.jpg" afterPath="$PROJECT_DIR$/public/images/107.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/108.jpg" afterPath="$PROJECT_DIR$/public/images/108.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/3.jpg" afterPath="$PROJECT_DIR$/public/images/3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/Calendar-3.png" afterPath="$PROJECT_DIR$/public/images/Calendar-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/Contract-512.png" afterPath="$PROJECT_DIR$/public/images/Contract-512.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/F.jpg" afterPath="$PROJECT_DIR$/public/images/F.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/M.jpg" afterPath="$PROJECT_DIR$/public/images/M.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/__3(1).jpg" afterPath="$PROJECT_DIR$/public/images/__3(1).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/__3(3).jpg" afterPath="$PROJECT_DIR$/public/images/__3(3).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/__3(5).jpg" afterPath="$PROJECT_DIR$/public/images/__3(5).jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/__3.jpg" afterPath="$PROJECT_DIR$/public/images/__3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/bg_001.jpg" afterPath="$PROJECT_DIR$/public/images/bg_001.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/bg_pages.jpg" afterPath="$PROJECT_DIR$/public/images/bg_pages.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/envelope-icon-2.png" afterPath="$PROJECT_DIR$/public/images/envelope-icon-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/envelope-icon-3.png" afterPath="$PROJECT_DIR$/public/images/envelope-icon-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/envelope-icon.png" afterPath="$PROJECT_DIR$/public/images/envelope-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/event-calendar-icon-1.png" afterPath="$PROJECT_DIR$/public/images/event-calendar-icon-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/event-calendar-icon-2.png" afterPath="$PROJECT_DIR$/public/images/event-calendar-icon-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/event-calendar-icon.png" afterPath="$PROJECT_DIR$/public/images/event-calendar-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/favicon.ico" afterPath="$PROJECT_DIR$/public/images/favicon.ico" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/female.jpg" afterPath="$PROJECT_DIR$/public/images/female.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/female_3.jpg" afterPath="$PROJECT_DIR$/public/images/female_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/female_icon.png" afterPath="$PROJECT_DIR$/public/images/female_icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/l_hand_left.jpg" afterPath="$PROJECT_DIR$/public/images/l_hand_left.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/l_hand_right.jpg" afterPath="$PROJECT_DIR$/public/images/l_hand_right.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/letter.jpg" afterPath="$PROJECT_DIR$/public/images/letter.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/lil-face-f.png" afterPath="$PROJECT_DIR$/public/images/lil-face-f.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/lil-face-m.png" afterPath="$PROJECT_DIR$/public/images/lil-face-m.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/male.jpg" afterPath="$PROJECT_DIR$/public/images/male.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/male.png" afterPath="$PROJECT_DIR$/public/images/male.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/male_3.jpg" afterPath="$PROJECT_DIR$/public/images/male_3.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/male_icon.png" afterPath="$PROJECT_DIR$/public/images/male_icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/msno.jpg" afterPath="$PROJECT_DIR$/public/images/msno.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/nofoto.jpg" afterPath="$PROJECT_DIR$/public/images/nofoto.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/notify.png" afterPath="$PROJECT_DIR$/public/images/notify.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/p-icon-2.png" afterPath="$PROJECT_DIR$/public/images/p-icon-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/p-icon-3.png" afterPath="$PROJECT_DIR$/public/images/p-icon-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/p-icon.png" afterPath="$PROJECT_DIR$/public/images/p-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/r_hand_left.jpg" afterPath="$PROJECT_DIR$/public/images/r_hand_left.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/r_hand_right.jpg" afterPath="$PROJECT_DIR$/public/images/r_hand_right.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/search-icon.png" afterPath="$PROJECT_DIR$/public/images/search-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/secure-icon-1.png" afterPath="$PROJECT_DIR$/public/images/secure-icon-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/secure-icon-2.png" afterPath="$PROJECT_DIR$/public/images/secure-icon-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/secure-icon-3.png" afterPath="$PROJECT_DIR$/public/images/secure-icon-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/secure-icon-4.png" afterPath="$PROJECT_DIR$/public/images/secure-icon-4.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/secure-icon-5.png" afterPath="$PROJECT_DIR$/public/images/secure-icon-5.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/sighnup-icon-2.png" afterPath="$PROJECT_DIR$/public/images/sighnup-icon-2.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/sighnup-icon-3.png" afterPath="$PROJECT_DIR$/public/images/sighnup-icon-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/sighnup-icon.png" afterPath="$PROJECT_DIR$/public/images/sighnup-icon.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/sign_up.jpg" afterPath="$PROJECT_DIR$/public/images/sign_up.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/sign_up.png" afterPath="$PROJECT_DIR$/public/images/sign_up.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/signup-icon-1.png" afterPath="$PROJECT_DIR$/public/images/signup-icon-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/trace.png" afterPath="$PROJECT_DIR$/public/images/trace.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/images/Ксензова Екатерина.jpg" afterPath="$PROJECT_DIR$/public/images/Ксензова Екатерина.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/assets.rb" afterPath="$PROJECT_DIR$/config/initializers/assets.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/initializers/constants.rb" afterPath="$PROJECT_DIR$/config/initializers/constants.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/templates/friendsIndex.html" afterPath="$PROJECT_DIR$/app/assets/templates/friendsIndex.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/javascripts/pages.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/pages.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/templates/pagesIndex.html" afterPath="$PROJECT_DIR$/app/assets/templates/pagesIndex.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/production.rb" afterPath="$PROJECT_DIR$/config/environments/production.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="antipmscom.iws" />
@@ -192,16 +101,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="production.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
@@ -273,7 +172,6 @@
         <option value="&lt;f9ee8dc8-ebe2-48f6-a7ed-c3a1ba2e348f&gt;/var/www/anti-pmscom/current/bower.json" />
         <option value="&lt;f9ee8dc8-ebe2-48f6-a7ed-c3a1ba2e348f&gt;/var/www/anti-pmscom/current/config/initializers/assets.rb" />
         <option value="&lt;f9ee8dc8-ebe2-48f6-a7ed-c3a1ba2e348f&gt;/var/www/anti-pmscom/current/config/application.rb" />
-        <option value="$PROJECT_DIR$/config/environments/production.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/Capfile" />
         <option value="$PROJECT_DIR$/bower.json" />
@@ -286,6 +184,7 @@
         <option value="$PROJECT_DIR$/config/initializers/assets.rb" />
         <option value="&lt;f9ee8dc8-ebe2-48f6-a7ed-c3a1ba2e348f&gt;/var/www/anti-pmsru/current/app/assets/templates/pagesIndex.html" />
         <option value="$PROJECT_DIR$/config/application.rb" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
       </list>
     </option>
   </component>
@@ -991,7 +890,13 @@
       <option name="project" value="LOCAL" />
       <updated>1435224388528</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="2 версия деплой">
+      <created>1435297139739</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1435297139739</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1005,16 +910,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="47" y="-4" width="1319" height="772" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Grunt " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19717203" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24980362" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18538885" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19088766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19088766" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4347826" sideWeight="0.49646506" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1026,7 +932,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4456522" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32919255" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1380,14 +1285,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/images/bg_pages.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1468,6 +1365,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37125748">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
           <folding />
         </state>
       </provider>
