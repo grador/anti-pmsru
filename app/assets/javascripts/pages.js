@@ -1,55 +1,65 @@
 /**
  * Created by grador on 27.03.15.
  */
-aPms.controller('PagesIndexCtrl', [ '$scope','$state','Auth', function($scope,$state,Auth) {
+aPms.controller('PagesIndexCtrl', [ '$scope','$state', 'friendsData','Auth', function($scope,$state,friendsData,Auth) {
     $scope.user = {
         name:'',
         email: '',
         password: ''};
-    $scope.badSlides = [
-        {   image: 'assets/001.jpg',
-            text:''},
-        {   image: 'assets/002.jpg',
-            text: 'Иди ко мне любимый!' },
-        {   image: 'assets/005.jpg',
-            text: 'Ты мой единственный!' },
-        {   image: 'assets/003.jpg',
-            text: 'Дай я тебя поцелую!' },
-        {   image: 'assets/004.jpg',
-            text: 'Как дела, дорогой?' },
-        {   image: 'assets/006.jpg',
-            text: 'Нам так хорошо вместе!' },
-        {   image: 'assets/007.jpg',
-            text: 'Я так люлю тебя!' },
-        {   image: 'assets/010.jpg',
-            text: 'Это ты во всем виноват!' },
-        {   image: 'assets/011.jpg',
-            text: 'Это ты во всем виноват!' },
-        {   image: 'assets/012.jpg',
-            text: 'Это ты во всем виноват!' },
-        {   image: 'assets/008.jpg',
-            text: 'У нас все хорошо?' },
-        {   image: 'assets/009.jpg',
-            text: 'Мама, папа, Я - дружная семья!' }
-    ];
-    $scope.goodSlides = [
-        {   image: 'assets/101.jpg',
-            text:''},
-        {   image: 'assets/102.jpg',
-            text: 'Иди ко мне любимый!' },
-        {   image: 'assets/105.jpg',
-            text: 'Ты мой единственный!' },
-        {   image: 'assets/103.jpg',
-            text: 'Дай я тебя поцелую!' },
-        {   image: 'assets/104.jpg',
-            text: 'Как дела, дорогой?' },
-        {   image: 'assets/106.jpg',
-            text: 'Нам так хорошо вместе!' },
-        {   image: 'assets/107.jpg',
-            text: 'Я так люлю тебя!' },
-        {   image: 'assets/108.jpg',
-            text: 'Мама, папа, Я - дружная семья!' }
-    ];
+    //$scope.goodSlides = '';
+    //$scope.badSlides = '';
+
+    friendsData.loadPages().then(function(data){
+        $scope.data = data;
+        $scope.goodSlides = $scope.data.goodSlides;
+        $scope.badSlides = $scope.data.badSlides;
+    }, function () {
+        $scope.loadtext = 'Нет ответа от сервера!';
+    });
+    //$scope.badSlides = [
+    //    {   image: 'assets/001.jpg',
+    //        text:''},
+    //    {   image: 'assets/002.jpg',
+    //        text: 'Иди ко мне любимый!' },
+    //    {   image: 'assets/005.jpg',
+    //        text: 'Ты мой единственный!' },
+    //    {   image: 'assets/003.jpg',
+    //        text: 'Дай я тебя поцелую!' },
+    //    {   image: 'assets/004.jpg',
+    //        text: 'Как дела, дорогой?' },
+    //    {   image: 'assets/006.jpg',
+    //        text: 'Нам так хорошо вместе!' },
+    //    {   image: 'assets/007.jpg',
+    //        text: 'Я так люлю тебя!' },
+    //    {   image: 'assets/010.jpg',
+    //        text: 'Это ты во всем виноват!' },
+    //    {   image: 'assets/011.jpg',
+    //        text: 'Это ты во всем виноват!' },
+    //    {   image: 'assets/012.jpg',
+    //        text: 'Это ты во всем виноват!' },
+    //    {   image: 'assets/008.jpg',
+    //        text: 'У нас все хорошо?' },
+    //    {   image: 'assets/009.jpg',
+    //        text: 'Мама, папа, Я - дружная семья!' }
+    //];
+    //$scope.goodSlides = [
+    //    {   image: 'assets/101.jpg',
+    //        text:''},
+    //    {   image: 'assets/102.jpg',
+    //        text: 'Иди ко мне любимый!' },
+    //    {   image: 'assets/105.jpg',
+    //        text: 'Ты мой единственный!' },
+    //    {   image: 'assets/103.jpg',
+    //        text: 'Дай я тебя поцелую!' },
+    //    {   image: 'assets/104.jpg',
+    //        text: 'Как дела, дорогой?' },
+    //    {   image: 'assets/106.jpg',
+    //        text: 'Нам так хорошо вместе!' },
+    //    {   image: 'assets/107.jpg',
+    //        text: 'Я так люлю тебя!' },
+    //    {   image: 'assets/108.jpg',
+    //        text: 'Мама, папа, Я - дружная семья!' }
+    //];
     $scope.myInterval = 4000;
     $scope.badColapse = true;
     $scope.goodColapse = true;

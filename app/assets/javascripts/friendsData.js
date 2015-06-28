@@ -23,6 +23,13 @@ aPms.factory('friendsData', ['$http', '$q', function($http, $q)
         //    $scope.data = data;
         //});
         //---------------------------
+        loadPages: function () {
+            var deferred = $q.defer();
+            $http.get('/pages.json')
+                .success(function (data) { deferred.resolve(data);})
+                .error(function () { deferred.reject();});
+            return deferred.promise;
+        },
 
         sendMail: function (url) {
             $http.get(url)

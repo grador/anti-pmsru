@@ -8,12 +8,7 @@ class PagesController < ApplicationController
 
 
   def index
-    # p Agent.all
-    # p From.all
-    # p Message.all
-    # p Reason.where(id:[10 ...20])
-    # p User.all
-    @page = {language: locale}
+    @page = make_pages_hash
     respond_to do |format|
       format.html
       format.json { render json: @page }
@@ -56,6 +51,30 @@ class PagesController < ApplicationController
   end
 
   private
+  def make_pages_hash
+    pages_hash = {
+        env: Rails.env,
+        language: locale,
+        badSlides: [],
+        goodSlides: []
+    }
+    if Rails.env.production?
+      BAD_SLIDES.each do |f|
+        pages_hash[:badSlides] << {image: ActionController::Base.helpers.asset_path(f[:image]),text: f[:text]}
+      end
+      GOOD_SLIDES.each do |f|
+        pages_hash[:goodSlides] << {image: ActionController::Base.helpers.asset_path(f[:image]),text: f[:text]}
+      end
+    else
+      GOOD_SLIDES.each do |f|
+        pages_hash[:goodSlides] << {image: 'assets/' + f[:image],text: f[:text]}
+      end
+      BAD_SLIDES.each do |f|
+        pages_hash[:badSlides] << {image: 'assets/' + f[:image],text: f[:text]}
+      end
+    end
+    pages_hash
+  end
 
   def user_params
     # (:id,:email,:name,:gender,:status,:paid,:birthday, :cycle_day,:begin)
