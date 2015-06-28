@@ -29,19 +29,19 @@ module Antipmsru
     # config.i18n.default_locale = :de
     config.i18n.default_locale = :ru
 
-    # initializer 'setup_asset_pipeline', :group => :all  do |app|
-    #   # We don't want the default of everything that isn't js or css, because it pulls too many things in
-    #   app.config.assets.precompile.shift
-    #
-    #   # Explicitly register the extensions we are interested in compiling
-    #   app.config.assets.precompile.push(Proc.new do |path|
-    #                                       File.extname(path).in? [
-    #                                                                  '.eot',  '.otf', '.svc', '.woff', '.ttf', # Fonts
-    #                                                                  # '.png',  '.gif', '.jpg', '.jpeg',         # Images
-    #                                                                  '.html', '.erb', '.haml'                 # Templates
-    #                                                              ]
-    #                                     end)
-    # end
+    initializer 'setup_asset_pipeline', :group => :all  do |app|
+      # We don't want the default of everything that isn't js or css, because it pulls too many things in
+      app.config.assets.precompile.shift
+
+      # Explicitly register the extensions we are interested in compiling
+      app.config.assets.precompile.push(Proc.new do |path|
+                                          File.extname(path).in? [
+                                                                     # '.eot',  '.otf', '.svc', '.woff', '.ttf', # Fonts
+                                                                     # '.png',  '.gif', '.jpg', '.jpeg',         # Images
+                                                                     '.html', '.erb', '.haml'                 # Templates
+                                                                 ]
+                                        end)
+    end
     # # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
   end
