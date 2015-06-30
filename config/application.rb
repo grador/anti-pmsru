@@ -36,8 +36,8 @@ module Antipmsru
       # Explicitly register the extensions we are interested in compiling
       app.config.assets.precompile.push(Proc.new do |path|
                                           File.extname(path).in? [
-                                                                     # '.eot',  '.otf', '.svc', '.woff', '.ttf', # Fonts
-                                                                     # '.png',  '.gif', '.jpg', '.jpeg',         # Images
+                                                                     '.eot',  '.otf', '.svc', '.woff', '.ttf', # Fonts
+                                                                     '.png',  '.gif', '.jpg', '.jpeg',         # Images
                                                                      '.html', '.erb', '.haml'                 # Templates
                                                                  ]
                                         end)

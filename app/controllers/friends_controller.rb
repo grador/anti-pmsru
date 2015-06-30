@@ -35,6 +35,10 @@ class FriendsController < ApplicationController
 
   def update
     @friend = Friend.find(params[:id])
+    str=params[:img].split('/')
+    str=str[str.length - 1]
+    params[:img]=str
+    params[:friend][:img]=str
     change_cycle(@friend, params)
     change_images(@friend, params)
     @friends = @friend.update_attributes(friend_params) if @friend

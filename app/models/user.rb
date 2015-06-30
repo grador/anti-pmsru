@@ -1,5 +1,3 @@
-# require 'Sprockets'
-# include Sprockets
 class User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # , :timeoutable and :omniauthable , :lockable
@@ -19,7 +17,12 @@ class User < ActiveRecord::Base
                      include: {letters:{only:[:id,:user,:event_id,:agent,:from_id,:message_id,:status]}},
                      only:[:id,:user,:friend_id,:reason_id,:begin_date,:period,:duration_day,:shift_day,:color,:status]}})
     d.each do |f|
-      f['img'] = Rails.env.production?? ActionController::Base.helpers.asset_path(f['img']) : 'assets/'+f['img']
+      if Rails.env.production?
+        path = ActionController::Base.helpers.asset_path(f['img'])
+        f['img'] = path.match('assets') || path == ''? path : '/images/' + f['img']
+      else
+        f['img'] = '/assets/' + f['img']
+      end
     end
     d
   end

@@ -3,7 +3,7 @@ class FriendsMailer < ApplicationMailer
   def ban_letter(user)
     @to = user
     mail(to: @to.email,
-         from: 'no-reply@anti-pms.com',
+         from: 'no-reply@anti-pms.ru',
          subject: "Блокировка аккаунта #{@to.name}.",
          template_name: 'ban_letter.txt.erb'
     )
@@ -16,7 +16,7 @@ class FriendsMailer < ApplicationMailer
     @reason = @event.reason
     @next_date = next_date(event)
     mail(to: @to.email,
-         from: 'no-reply@anti-pms.com',
+         from: 'no-reply@anti-pms.ru',
          subject: "Подтверждение даты #{@reason.name} у #{@friend.name}.",
          template_name: 'trace_letter.txt.erb'
     )

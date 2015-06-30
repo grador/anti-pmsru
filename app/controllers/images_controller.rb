@@ -5,7 +5,16 @@ class ImagesController < ApplicationController
 
   def create
     @image = Image.save(params[:file],current_user)
-    render json: @image.url
+    render json: make_true_path(@image.url)
   end
 
+  private
+  def make_true_path(url)
+    if Rails.env.production?
+      path = ActionController::Base.helpers.asset_path(url)
+      path.match('assets') || path == ''? path : '/images/' + url
+    else
+      '/assets/' + url
+    end
+  end
 end

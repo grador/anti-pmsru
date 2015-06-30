@@ -67,10 +67,10 @@ class PagesController < ApplicationController
       end
     else
       GOOD_SLIDES.each do |f|
-        pages_hash[:goodSlides] << {image: 'assets/' + f[:image],text: f[:text]}
+        pages_hash[:goodSlides] << {image: '/assets/' + f[:image],text: f[:text]}
       end
       BAD_SLIDES.each do |f|
-        pages_hash[:badSlides] << {image: 'assets/' + f[:image],text: f[:text]}
+        pages_hash[:badSlides] << {image: '/assets/' + f[:image],text: f[:text]}
       end
     end
     pages_hash

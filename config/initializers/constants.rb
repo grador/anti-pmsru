@@ -1,6 +1,8 @@
+PRODUCTION_UPLOAD_PATH = '../../shared/public/images'
+PRODUCTION = '../../shared'
 UPLOAD_PATH = 'public/images'
-SITE_URL = 'http:/anti-pms.com'
-SITE_NAME = 'ANTI-PMS.COM'
+SITE_URL = 'http:/anti-pms.ru'
+SITE_NAME = 'ANTI-PMS.ru'
 WAIT_CONFIRM ='wait_confirm'
 CONFIRMED = 'confirmed'
 DEMO_MALE = 2

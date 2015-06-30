@@ -69,7 +69,18 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.perform_deliveries = true
   config.action_mailer.raise_delivery_errors = true
-  config.action_mailer.delivery_method = :sendmail
+  # config.action_mailer.delivery_method = :sendmail
+  config.action_mailer.default_url_options = {:host => 'anti-pms.ru', :from => 'no-reply@anti-pms.ru'}
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.smtp_settings = {
+      :address => "smtp.yandex.com",
+      # :port => 587,
+      :port => 465,
+      :domain => 'anti-pms.ru',
+      :authentication => :plain,
+      :user_name => 'no-reply@anti-pms.ru',
+      :password => '79161716460'
+  }
 
 
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to

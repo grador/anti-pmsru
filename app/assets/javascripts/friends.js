@@ -352,6 +352,7 @@ aPms.controller('FriendsIndexCtrl',[ '$scope', '$state', '$modal', 'friendsData'
         }
         friendsData.sendMail('/'+tabName+'/'+item.id+'.json');
     };
+
     $scope.saveImg = function(friend){
         $scope.flowData.flow.files = [];
         $scope.saveCondition('friends',friend,'img',12);
