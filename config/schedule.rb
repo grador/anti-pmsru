@@ -5,8 +5,8 @@
 
 # set :output, "/path/to/my/cron_log.log"
 # TODO сменить environment перед деплоем
-# set :environment, 'production'
-set :environment, 'development'
+set :environment, 'production'
+# set :environment, 'development'
 
 # every 6.hours do
 every 2.hours do
