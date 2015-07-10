@@ -67,22 +67,11 @@ Rails.application.configure do
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   # config.action_mailer.raise_delivery_errors = false
   # Don't care if the mailer can't send.
+  # ActionMailer Config
   config.action_mailer.perform_deliveries = true
-  config.action_mailer.raise_delivery_errors = true
-  # config.action_mailer.delivery_method = :sendmail
+  config.action_mailer.raise_delivery_errors = false
   config.action_mailer.default_url_options = {:host => 'anti-pms.ru', :from => 'no-reply@anti-pms.ru'}
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-      :address => "smtp.yandex.com",
-      # :port => 587,
-      :port => 465,
-      :domain => 'anti-pms.ru',
-      :authentication => :plain,
-      :user_name => 'no-reply@anti-pms.ru',
-      :password => '79161716460'
-  }
-
-
   # Enable locale fallbacks for I18n (makes lookups for any locale fall back to
   # the I18n.default_locale when a translation cannot be found).
   config.i18n.fallbacks = true

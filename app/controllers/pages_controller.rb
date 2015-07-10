@@ -1,9 +1,11 @@
 class PagesController < ApplicationController
 
   before_action :check_auth, except: [:index, :create]
+  before_action :check_agents_confirmation, only: :index
+  # before_action :start_daemon, only: :index
   # TODO перенести в демон
-  after_action :clean_up_friends, only: :index
-  after_action :clean_up_leafs, only: :index
+  # after_action :clean_up_friends, only: :index
+  # after_action :clean_up_leafs, only: :index
   # after_action :my_daemon, only: :index
 
 
@@ -17,7 +19,6 @@ class PagesController < ApplicationController
 
   def update
     @user = User.find(params[:id])
-    p @user
     if @user.allowed_editing?
       @user.update_attributes(user_params)
     else
@@ -53,7 +54,7 @@ class PagesController < ApplicationController
   private
   def make_pages_hash
     pages_hash = {
-        env: Rails.env,
+        # env: Rails.env,
         language: locale,
         badSlides: [],
         goodSlides: []
@@ -74,6 +75,19 @@ class PagesController < ApplicationController
       end
     end
     pages_hash
+  end
+
+  def check_agents_confirmation
+    User.where(name: WAIT_CONFIRM).each do |u|
+      if u.confirmed?
+        Agent.update(u.status,img:CONFIRMED) && u.delete
+      else
+        if u.confirmation_sent_at < 2.days.ago
+          Agent.find(u.status).delete
+          u.delete
+        end
+      end
+    end
   end
 
   def user_params

@@ -3,7 +3,7 @@ class LettersController < ApplicationController
 
   def show
     @letter = Letter.find(params[:id])
-    FriendsMailer.notify_letter(@letter).deliver_now
+    FriendsMailer.notify_letter(@letter).deliver_later
     History.create(user_id: @letter.user, letter_id: @letter.id, status: NOTIFY_MAIL_SENT)
     render json: @letter.id
   end

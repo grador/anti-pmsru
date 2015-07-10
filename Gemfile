@@ -13,9 +13,10 @@ gem 'uglifier'
 gem 'coffee-rails'
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
 gem 'rails-i18n'
+gem 'whenever', :require => false
+gem 'sidekiq'
+
 gem 'bootstrap-sass'
-# gem 'therubyracer', platforms: :ruby
-# gem 'minitest'
 gem 'less-rails'
 gem 'therubyracer'
 gem 'twitter-bootstrap-rails'

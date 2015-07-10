@@ -12,7 +12,7 @@ class FriendsController < ApplicationController
 
   def show
     @friend = Friend.find(params[:id])
-    send_notify_letters(@friend.letters)
+    Letter.send_notify_letters(@friend.letters)
     render json: @friend.id
   end
 
@@ -58,6 +58,18 @@ class FriendsController < ApplicationController
       reasons: Reason.take_catalog(user),
       friends: user.take_data_structure
     }
+  end
+
+  def change_cycle(friend, params)
+    if friend && params
+      Event.put_cycle(friend,params[:cycle_day]) if friend.cycle_day != params[:cycle_day]
+    end
+  end
+
+  def change_images(item,par)
+    if item && par
+      Image.change_image([item.img, par[:img]],par[:id]) if item.img!=par[:img] || par[:show]=='blocked'
+    end
   end
 
   def friend_params

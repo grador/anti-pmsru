@@ -173,6 +173,9 @@
       <column name="confirmation_token" sqlType="VARCHAR" precision="255" scale="0" nullable="true" jdbcType="12"/>
       <column name="confirmed_at" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
       <column name="confirmation_sent_at" sqlType="DATETIME" precision="19" scale="0" nullable="true" jdbcType="93"/>
+      <column name="birthday" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
+      <column name="cycle_day" sqlType="INT" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="begin" sqlType="DATE" precision="10" scale="0" nullable="true" jdbcType="91"/>
       <primary-key name="PRIMARY" columns="id"/>
       <exported-key name="fk_rails_e050123f3c" table="friends" schema="" catalog="antipmscom_development" columns="user_id"/>
       <exported-key name="fk_rails_b95451f1b3" table="histories" schema="" catalog="antipmscom_development" columns="user_id"/>

@@ -16,7 +16,7 @@ class Message < ActiveRecord::Base
       self.theme.gsub!(/<D>/,date.strftime('%d-%m-%Y')) if need_data_in_theme
     end
     if need_name_in_text || need_name_in_theme
-      name = letter.friend.name
+      name = letter.event.friend.name
       self.text.gsub!(/<N>/,name) if need_name_in_text
       self.theme.gsub!(/<N>/,name) if need_name_in_theme
     end

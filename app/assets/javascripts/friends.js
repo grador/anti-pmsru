@@ -132,7 +132,7 @@ aPms.controller('FriendsIndexCtrl',[ '$scope', '$state', '$modal', 'friendsData'
 
     $scope.newFriend = function(){
         if($scope.isNotPaid() && $scope.data.friends.length>0){
-            alert('Ограничение беплатного аккаунта! Не более одного объекта для наблюдения. Для снятия ограничения переходите на премиальный аккаунт.');
+            alert('Ограничение беcплатного аккаунта! Не более одного объекта для наблюдения. Для снятия ограничения переходите на премиальный аккаунт.');
             $scope.data.friends[0].show = true;
         }else{
             var i = $scope.data.friends.push($scope.Friend())-1;
@@ -143,7 +143,7 @@ aPms.controller('FriendsIndexCtrl',[ '$scope', '$state', '$modal', 'friendsData'
 
     $scope.newEvent = function(friend){
         if($scope.isNotPaid() && friend.events.length>1)
-            alert('Ограничение беплатного аккаунта! Не более двух событий для наблюдения. Для снятия ограничения переходите на премиальный аккаунт.');
+            alert('Ограничение беcплатного аккаунта! Не более двух событий для наблюдения. Для снятия ограничения переходите на премиальный аккаунт.');
         else {
             var i = friend.events.push($scope.Event(friend)) - 1;
             $scope.saveCondition('events', friend.events[i], i, 2);
@@ -153,7 +153,7 @@ aPms.controller('FriendsIndexCtrl',[ '$scope', '$state', '$modal', 'friendsData'
 
     $scope.newLetter = function(event){
         if($scope.isNotPaid() && event.letters.length>0)
-            alert('Ограничение беплатного аккаунта! Не более одного адреса рассылки для события. Для снятия ограничения переходите на премиальный аккаунт.');
+            alert('Ограничение беcплатного аккаунта! Не более одного адреса рассылки для события. Для снятия ограничения переходите на премиальный аккаунт.');
         else {
             var i = event.letters.push($scope.Letter(event)) - 1;
             $scope.saveCondition('letters', event.letters[i], i, 2, event);

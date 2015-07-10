@@ -2,8 +2,7 @@ class EventsController < ApplicationController
   before_action :check_auth
   def show
     @event = Event.find(params[:id])
-    # send_trace_letters([@event]) было для отладки отправки
-    send_notify_letters(@event.letters)
+    Letter.send_notify_letters(@event.letters)
     render json: @event.id
   end
 

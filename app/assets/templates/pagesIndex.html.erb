@@ -19,7 +19,7 @@
         <div class="col-md-4 center-block">
             <div class="center-block" style=" width: 330px; height: 250px;" ng-mouseover="badColapse=false; goodColapse=true;changeColor=true;" ng-mouseleave="badColapse=true;">
                 <carousel interval="myInterval">
-                    <slide ng-repeat="slide in badSlides" active="slide.active">
+                    <slide ng-repeat="slide in data.badSlides" active="slide.active">
                         <img ng-src="{{slide.image}}" style="margin:auto; max-width: 330px; height: 250px;">
                     </slide>
                 </carousel>
@@ -71,7 +71,7 @@
         <div class="col-md-4 center-block">
             <div class="center-block" style=" width: 330px; height: 250px;" ng-mouseover="goodColapse=false; badColapse=true;changeColor=true;" ng-mouseleave="goodColapse=true;">
                 <carousel interval="myInterval">
-                    <slide ng-repeat="slide in goodSlides" active="slide.active">
+                    <slide ng-repeat="slide in data.goodSlides" active="slide.active">
                         <img ng-src="{{slide.image}}" style="margin:auto; max-width: 330px; height: 250px;">
                     </slide>
                 </carousel>

@@ -4,8 +4,8 @@
 aPms.controller('PagesIndexCtrl', [ '$scope','$state', 'friendsData','Auth', function($scope,$state,friendsData,Auth) {
     friendsData.loadPages().then(function(data){
         $scope.data = data;
-        $scope.goodSlides = $scope.data.goodSlides;
-        $scope.badSlides = $scope.data.badSlides;
+        //$scope.goodSlides = $scope.data.goodSlides;
+        //$scope.badSlides = $scope.data.badSlides;
     }, function () {
         $scope.loadtext = 'Нет ответа от сервера!';
     });
@@ -105,6 +105,8 @@ aPms.controller('PagesIndexCtrl', [ '$scope','$state', 'friendsData','Auth', fun
     $scope.newUser = {
         name:'',
         email: '',
+        //TODO убрать когда будет монетизация
+        paid: new Date( new Date().getTime()+31536000000),
         password: '',
         password_confirmation: ''};
 
@@ -119,7 +121,8 @@ aPms.controller('PagesIndexCtrl', [ '$scope','$state', 'friendsData','Auth', fun
         Auth.login($scope.user).then(function(){
             $state.go('friends');
         },function(){
-            $state.go('/');
+            alert('Неверный E-mail или пароль!');
+            //$state.go('/');
         });
     };
 
